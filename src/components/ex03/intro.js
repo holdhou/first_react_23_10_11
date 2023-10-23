@@ -1,0 +1,16 @@
+export const Intro = ({name,age,jop}) =>{
+    /* const name = props.name;
+    const age = props.age; 
+
+    const {name,age} = props;
+     객체비구조화 할당 */
+    return (
+    <div>
+        <h2>자기소개</h2>
+        <h3>이름:{name}</h3>
+        <h3>나이:{age}</h3>
+        <h3>직업:{jop}</h3>
+        <hr/>
+    </div>
+    );
+};
