@@ -2,6 +2,7 @@ import PropsEx from "./components/ex03/propsEx";
 import { ComEx01,ComEx02 } from "./components/ex02/ComEx01";
 import { Ex05 } from "./components/ex05/Ex05";
 import { Ex07 } from "./components/ex07/Ex07";
+import { Ex09 } from "./components/ex09/Ex09";
 
 const App = () =>{
   return (
@@ -16,8 +17,9 @@ const App = () =>{
     <PropsEx/>
       <Ex05/>
      <Ex06/>
-     */}
      <Ex07/>
+     */}
+     <Ex09/>
   </div>  
   );
 };
